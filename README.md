@@ -10,7 +10,6 @@
 
   <!-- Badges -->
   <p>
-    <a href="https://github.com/a3x-parvez/flipkart_review_sentiment_web/actions"><img src="https://img.shields.io/github/actions/workflow/status/a3x-parvez/flipkart_review_sentiment_web/main.yml?branch=main&style=for-the-badge" alt="Build Status"></a>
     <a href="https://github.com/a3x-parvez/flipkart_review_sentiment_web/blob/main/LICENSE"><img src="https://img.shields.io/github/license/a3x-parvez/flipkart_review_sentiment_web?style=for-the-badge" alt="License"></a>
     <a href="https://github.com/a3x-parvez/flipkart_review_sentiment_web/issues"><img src="https://img.shields.io/github/issues/a3x-parvez/flipkart_review_sentiment_web?style=for-the-badge" alt="Issues"></a>
     <a href="https://github.com/a3x-parvez/flipkart_review_sentiment_web/stargazers"><img src="https://img.shields.io/github/stars/a3x-parvez/flipkart_review_sentiment_web?style=for-the-badge" alt="Stargazers"></a>
