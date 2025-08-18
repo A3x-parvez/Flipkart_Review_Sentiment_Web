@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img_vid_gifs/logo1.jpg">
+</head>
+<body>
+   
+  
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="img_vid_gifs/logo1.jpg" class="logo">
+            <h1>Flipkart Product Review Analyzer</h1>
+         </div>
+        <button id="theme-toggle" class="theme-btn">☀</button>
+    </nav>
+
+
+
+
+    <h2>Submit Product Link</h2>
+    <p>Enter product URL and select type to analyze reviews</p>
+
+    <div class="input-section">
+        <input type="text" placeholder="https://example.com/product" class="input-box" id="input-url">
+        <select class="input-box" id="input-type">
+            <option value="" disabled selected>Select product type</option>
+            <option value='single'>Single Reviews</option>
+            <option value='multiple'>Multiple Reviews</option>
+        </select>
+        <button class="analyze-btn">Analyze</button>
+    </div>
+<!-- review indicator-->
+<div id="loading-overlay">
+    <div id="loading-indicator">
+      <div class="spinner"></div>
+      <p class="loading-text">
+        Loading reviews and analysis... 
+        <span id="loading-percent">0%</span>
+      </p>
+    </div>
+  </div>
+
+
+<!---review analusis -->
+<h3>Final Analysis</h3>
+<div class="final-analysis" style="display: none; text-align: center;">
+    <canvas id="final-analysis-summary"></canvas>
+</div>
+<br>
+<div class="review-section">
+    <div class="review-box positive">
+        <h2>👍 Positive Comments</h2>
+        <div id="positive-reviews" class="scrollable-reviews">
+            <p>Great product! Really satisfied with the quality.</p>
+            <p>Amazing service and fast delivery.</p>
+            <p>Very useful, exceeded my expectations.</p>
+        </div>
+    </div>
+
+    <div class="review-box neutral">
+        <h2>🔍 Neutral Comments</h2>
+        <div id="neutral-reviews" class="scrollable-reviews">
+            <p>It's okay, nothing too special.</p>
+            <p>Decent quality but could be better.</p>
+            <p>Not bad, but expected more features.</p>
+        </div>
+    </div>
+
+    <div class="review-box negative">
+        <h2>👎 Negative Comments</h2>
+        <div id="negative-reviews" class="scrollable-reviews">
+            <p>Product arrived damaged.</p>
+            <p>Poor customer service response.</p>
+            <p>Not worth the price, very disappointed.</p>
+        </div>
+    </div>
+</div>
+
+
+
+    
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+
+</body>
+</html> 
