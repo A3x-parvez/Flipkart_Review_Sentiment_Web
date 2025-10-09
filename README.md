@@ -86,6 +86,15 @@ This diagram illustrates the flow of data from the user to the final analysis:
 </details>
 
 <details>
+  <summary><strong>Deep Learning / NLP</strong></summary>
+
+- **BERT (Bidirectional Encoder Representations from Transformers)**
+- **RNN, LSTM, BiLSTM (with Glove, Word2Vec, Doc2Vec embeddings)**
+- **TensorFlow GPU: Model training acceleration**
+- **NLTK, spaCy: Text preprocessing**
+</details>
+
+<details>
   <summary><strong>Libraries</strong></summary>
 
 - **BeautifulSoup4 & Requests**: Web scraping
@@ -125,6 +134,17 @@ This diagram illustrates the flow of data from the user to the final analysis:
 ## 🤖 Model Details
 
 **The sentiment analysis is powered by a BERT (Bidirectional Encoder Representations from Transformers) model. Specifically, this project uses a pre-trained `bert-base-uncased` model that has been fine-tuned for sequence classification. The model has been trained for 8 epochs to achieve higher accuracy in classifying sentiment.**
+
+---
+## ⚙️ Model Comparison
+
+| Model  | Embedding | Accuracy | Validation Accuracy | Conclusion                                   |
+|---------|------------|-----------|---------------------|---------------------------------------------|
+| RNN     | Glove      | 40%       | 40%                 | Underfit                                    |
+| LSTM    | Glove      | 41%       | 40%                 | Underfit                                    |
+| BiLSTM  | Glove      | 92%       | 90%                 | Good paper accuracy, weak test performance  |
+| BiLSTM  | Doc2Vec    | 94%       | 91%                 | High accuracy, but biased                   |
+| BERT    | BERT       | 96.96%    | 91.03%              | Best performance overall                    |
 
 ---
 
@@ -168,6 +188,16 @@ To get a local copy up and running, follow these simple steps.
 3.  Paste the URL into the input box in the web app.
 4.  Select whether the page contains single or multiple reviews.
 5.  Click "Analyze" and watch the magic happen!
+
+---
+
+## 🤓 Future Scope
+
+1. Upgrade BERT to a larger variant
+2. Enhance UI/UX design
+3. Add product recommendations
+4. Improve API response speed
+5. Introduce Trending Products feature
 
 ---
 
