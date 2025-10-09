@@ -201,13 +201,32 @@ To get a local copy up and running, follow these simple steps.
 
 ---
 
-## 🤝 Contributing
+## 🤝 Project Contributors  
 
- - **Chayan Ghosh – Model Engineer**
- - **Rijwanool Karim – Backend & API Integration**
- - **Shouryadip Bera – Backend & Frontend Developer**
- - **Sk Mahiduzzaman – Data Cleaning & Research**
- - **Sayantan Saha – Data Cleaning & Research**
+Our project was brought to life by a passionate group of Computer Science Engineers — specializing in Artificial Intelligence, Machine Learning, and Full Stack Development.  
+Each member played a crucial role in shaping different aspects of this project, from data to deployment 🚀  
+
+---
+
+#### **⭐ Chayan Ghosh (CSE – AI & ML)** [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=flat)](https://github.com/CGhosh81)  
+  - **Role in this project :**
+      *Took charge of the entire model development pipeline process — including deep learning model training and testing, help to integrating models into the API. Ensured the models were robust, accurate, and seamlessly connected to the system for smooth functionality. Also help to collecting datasets manually using web scraping.*
+
+#### **⭐ Rijwanool Karim (CSE – AI & ML)** [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=flat)](https://github.com/A3x-parvez)  
+  - **Role in this project :**
+      *Architected the complete project workflow and system architecture - including backend-frontend integration, API design-development, and building the complete backend workflow. Built a fully functional, scalable pipeline and workflow .Also assisted in manual data collection using web scraping to support the pipeline.*
+
+#### **⭐ Shouryadip Bera (CSE)** [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=flat)](https://github.com/sourya047)  
+  - **Role in this project :**
+      *Led the frontend web UI design and development, creating a visually appealing and user-friendly interface. Assisted in backend integration, ensuring smooth communication between frontend and backend modules. Focused on building a cohesive, functional interface that made the system intuitive and responsive for users.*
+
+#### **⭐ Sk Mahiduzzaman (CSE – AI & ML)** [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=flat)](https://github.com/zahir2003)  
+  - **Role in this project :**
+       *Oversaw data validation and preprocessing, manually checking and correcting datasets to ensure high quality. Cleaned and structured the data so that the deep learning models could train on accurate, reliable inputs, significantly improving model performance.* 
+
+#### **⭐ Sayantan Saha (CSE)** [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=flat)](https://github.com/Sayantan719)
+  - **Role in this project :**
+      *Focused on meticulous data validation and cleaning, manually correcting errors and structuring the dataset. Ensured the integrity of data used for model training, enabling the team to produce accurate and consistent results*
    
 ---
 ## 🧩 References
