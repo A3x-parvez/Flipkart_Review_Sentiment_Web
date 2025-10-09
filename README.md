@@ -47,7 +47,7 @@
 This diagram illustrates the flow of data from the user to the final analysis:
 
 <div align="center">
-<img src="Product_Analysis_Frontend/img_vid_gifs/workflow.jpg" alt="Workflow Diagram" width="700"/>
+<img src="Product_Analysis_Frontend/img_vid_gifs/sentiment_analysis_project_flow.jpeg" alt="Workflow Diagram" width="700"/>
 </div>
 
 ---
